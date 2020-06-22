@@ -1,4 +1,5 @@
 # scheduler
+A ajango apllication api which schedule a url for sendong get request at a particaler time.
 
 ## Installing setup
 
@@ -11,7 +12,7 @@ python manage.py runserver
  ```
  ##### Now after starting the server you have to start process_tasks to make the get request on the scheduled time
  ```bash
- pyhton manage.py process_tasks
+ python manage.py process_tasks
  ```
  
  #### Now open postman and send the following request - 
